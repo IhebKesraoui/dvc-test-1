@@ -1,0 +1,13 @@
+prefix=/home/nanoz-admin/Desktop/projects/dvc test 1/env
+exec_prefix=/home/nanoz-admin/Desktop/projects/dvc test 1/env
+libdir=/home/nanoz-admin/Desktop/projects/dvc test 1/env/lib
+sharedlibdir=/home/nanoz-admin/Desktop/projects/dvc test 1/env/lib
+includedir=/home/nanoz-admin/Desktop/projects/dvc test 1/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
